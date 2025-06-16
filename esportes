@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes - Tudo sobre modalidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tudo Sobre Esportes</h1>
+        <section id="intro">
+            <h2>O que são esportes?</h2>
+            <p>Esportes são atividades físicas organizadas que envolvem habilidades físicas e mentais. Podem ser praticados por lazer, saúde ou competição profissional.</p>
+        </section>
+
+        <section id="futebol">
+            <h2>Futebol</h2>
+            <p>Futebol no Esporte
+Futebol é o esporte mais popular do mundo, praticado por milhões de pessoas em todos os continentes. É jogado por duas equipes de 11 jogadores com o objetivo de marcar gols, colocando a bola na meta adversária.
+<ul>
+<li>Regras: O jogo tem 90 minutos (divididos em dois tempos de 45 minutos), com o time que marcar mais gols sendo o vencedor. O goleiro é o único jogador que pode usar as mãos dentro da área.
+<li>Principais Competições: As mais famosas são a Copa do Mundo (FIFA), a Liga dos Campeões da UEFA e a Copa Libertadores da América.
+
+<li>Impacto Global: O futebol é mais que um esporte; é parte da cultura de muitos países. A rivalidade entre clubes e seleções gera paixões intensas e grandes torcidas.
+
+<li>Times Icônicos: Como Real Madrid, Barcelona, Manchester United, Bayern de Munique e Flamengo.
+
+<li>Jogadores Famosos: Pelé, Maradona, Messi, Cristiano Ronaldo e Neymar são alguns dos maiores nomes da história do futebol.
+        </section>
+
+        <section id="basquete">
+            <h2>Basquete</h2>
+            <p>Basquete é um esporte coletivo onde duas equipes de 5 jogadores tentam marcar pontos, arremessando a bola em uma cesta elevada (a 3,05 metros do chão) do time adversário.
+<ul>
+<li>Regras principais: O jogo é dividido em 4 períodos de 12 minutos (NBA) ou 10 minutos (FIBA). A equipe que marcar mais pontos vence. Os pontos podem ser 1, 2 ou 3, dependendo de onde o arremesso é feito. A partida é jogada em uma quadra retangular com uma cesta em cada extremidade.
+
+<li>Objetivo: Marcar o maior número de pontos, passando e arremessando a bola de forma estratégica, enquanto defende contra os ataques do time adversário.
+
+<h2>Principais Competições:</h2>
+
+NBA (National Basketball Association): A liga profissional mais importante do mundo, com times como Los Angeles Lakers, Boston Celtics e Chicago Bulls.
+
+Copa do Mundo de Basquete FIBA: O torneio internacional de seleções, realizado a cada 4 anos.
+
+<li>Campeonatos Nacionais: Como o NBB (Novo Basquete Brasil) no Brasil e outras ligas ao redor do mundo.
+
+<li>Impacto Global: O basquete é um dos esportes mais seguidos, especialmente na América do Norte e em várias partes da Europa e Ásia. A NBA e o basquete universitário nos EUA atraem milhões de fãs.
+<li>Jogadores Famosos: Michael Jordan, LeBron James, Kobe Bryant, Magic Johnson, Larry Bird e Stephen Curry são ícones do basquete mundial.</p>
+        </section>
+
+        <section id="natacao">
+            <h2>Natação</h2>
+            <p>Natação é um esporte aquático que envolve o deslocamento do corpo na água usando os membros. Pode ser praticada de forma recreativa ou competitiva e é uma das modalidades mais antigas das Olimpíadas.
+
+<li>Regras principais: Os atletas nadam em piscinas (geralmente de 50m ou 25m) e competem em diferentes estilos: crawl, costas, peito e borboleta. Cada estilo tem suas próprias regras e técnicas. Além disso, há as provas de revezamento, onde equipes de 4 nadadores alternam a natação.
+<ul>
+<h2>Estilos:</h2>
+<li>Crawl (livre): O estilo mais rápido e popular.
+
+<li>Peito: O mais lento e técnico, com movimentos amplos dos braços.
+
+<li>Costas: Nado de costas, exigindo técnica específica.
+
+<li>Borboleta: O mais exigente fisicamente, com movimento simultâneo dos braços e pernas.
+
+<li>Provas: As provas variam em distância (50m, 100m, 200m, etc.) e estilo. As Olimpíadas e Campeonatos Mundiais são os maiores eventos, com provas individuais e de revezamento.
+
+Principais Competições:
+
+<li>Olimpíadas: A natação é uma das modalidades mais emocionantes dos Jogos Olímpicos, com atletas como Michael Phelps (EUA) e Caeleb Dressel (EUA) dominando o esporte.
+
+<li>Campeonato Mundial de Natação (FINA): Principal competição internacional fora das Olimpíadas.
+
+<li>Impacto Global: A natação é um dos esportes mais populares e acessíveis no mundo, com grande presença em escolas e clubes esportivos. Além de ser uma habilidade importante de sobrevivência, também é amplamente praticada por suas vantagens de condicionamento físico.
+<li>Ícones do esporte: Michael Phelps (EUA), o maior medalhista olímpico de todos os tempos, Ian Thorpe (Austrália), Katie Ledecky (EUA), entre outros.</p>
+        </section>
+
+        <section id="volei">
+            <h2>Vôlei</h2>
+            <p>Vôlei é um esporte coletivo onde duas equipes de seis jogadores tentam marcar pontos ao enviar uma bola por cima de uma rede, fazendo com que ela toque o chão no lado adversário. O jogo é muito popular em todo o mundo, tanto em quadra quanto na versão de praia (vôlei de praia).
+<ul>
+<li>Regras principais: O jogo é dividido em sets (geralmente 3 ou 5 sets por partida). A equipe deve conquistar pontos ao fazer a bola tocar no chão do time adversário, seja com um ataque ou erro do oponente. A partida começa com um saque, e os jogadores não podem deixar a bola cair em seu lado da quadra.
+
+<li>Objetivo: Marcar pontos e vencer o time adversário, alternando entre ataque e defesa. Cada time tem 3 toques para passar a bola para o outro lado da rede, sendo um toque obrigatório para cada jogador.
+
+<h2>Posições principais:</h2>
+<li>Atacante (ou ponteiro): Principal jogador ofensivo, responsável por realizar ataques potentes.
+<li>Central: Joga perto da rede, bloqueando ataques e fazendo ataques rápidos.
+
+<li>Levantador: Responsável por distribuir as jogadas, fazendo passes precisos para os atacantes.
+
+<li>Libero: Jogador especializado em defesa e recepção de saques.
+<li>Saque: O saque pode ser de várias formas, incluindo o saque flutuante ou o saque por cima.
+
+<h2>Principais Competições:</h2>
+
+<li>Campeonato Mundial de Vôlei: Organizado pela FIVB (Federação Internacional de Voleibol), é a maior competição internacional de seleções.
+
+<li>Olimpíadas: O vôlei de quadra é um dos destaques dos Jogos Olímpicos, com equipes como Brasil, EUA, Rússia e Itália competindo no mais alto nível.
+<li>Superliga Brasileira: O Brasil é uma das potências do vôlei, e a Superliga é o principal torneio nacional, com grandes clubes como Cruzeiro e Sada.
+
+<li>.Vôlei de Praia: Versão do vôlei jogada na areia, com equipes de dois jogadores. As competições mais importantes são o Campeonato Mundial de Vôlei de Praia e as Olimpíadas.
+
+Ícones do esporte: No vôlei de quadra, atletas como Giba, Bernardinho (técnico) e Sheilla (Brasil) são grandes lendas. No vôlei de praia, Carlos "Carlão" e Ricardo (Brasil), além de Kerri Walsh e Misty May-Treanor (EUA), são ícones.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+<a href="file:///C:/Users/ALUNO%2015/Documents/index.inicial.html">Ir para a segunda Página</a>
