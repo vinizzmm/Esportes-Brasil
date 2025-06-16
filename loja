@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário Esportes Brasil</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #dceefb, #a3c9e2);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1, h3 {
+      text-align: center;
+      color: #2c3e50;
+      margin-top: 30px;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 30px;
+      margin: 30px 0;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 650px;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #34495e;
+      font-weight: 600;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"], select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    fieldset {
+      border: none;
+      margin-bottom: 20px;
+    }
+
+    legend {
+      font-size: 20px;
+      color: #2c3e50;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      background-color: #3498db;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .success-message {
+      display: none;
+      text-align: center;
+      color: green;
+      font-weight: bold;
+      margin-top: 15px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Formulário Esportes Brasil</h1>
+  <h3>Queremos saber mais sobre seus hábitos esportivos!</h3>
+
+  <div class="container">
+    <form id="formEsporte">
+      <fieldset>
+        <legend>Sobre você</legend>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="5" max="100" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Prática esportiva</legend>
+
+        <label for="esporte">Seu esporte preferido:</label>
+        <select id="esporte" name="esporte" required>
+          <option value="">-- Selecione --</option>
+          <option value="futebol">Futebol</option>
+          <option value="basquete">Basquete</option>
+          <option value="volei">Vôlei</option>
+          <option value="natacao">Natação</option>
+          <option value="atletismo">Atletismo</option>
+          <option value="outros">Outros</option>
+        </select>
+
+        <label>Seu nível de habilidade:</label>
+        <label><input type="radio" name="nivel" value="iniciante" required> Iniciante</label>
+        <label><input type="radio" name="nivel" value="intermediario" required> Intermediário</label>
+        <label><input type="radio" name="nivel" value="avancado" required> Avançado</label>
+
+        <label>Com que frequência você pratica?</label>
+        <label><input type="checkbox" name="frequencia[]" value="diariamente"> Diariamente</label>
+        <label><input type="checkbox" name="frequencia[]" value="semanalmente"> Semanalmente</label>
+        <label><input type="checkbox" name="frequencia[]" value="mensalmente"> Mensalmente</label>
+
+        <label for="tempo">Há quanto tempo pratica esse esporte?</label>
+        <select id="tempo" name="tempo">
+          <option value="menos de 1 ano">Menos de 1 ano</option>
+          <option value="1-3 anos">1 a 3 anos</option>
+          <option value="mais de 3 anos">Mais de 3 anos</option>
+        </select>
+
+        <label for="objetivo">Qual seu principal objetivo com o esporte?</label>
+        <select id="objetivo" name="objetivo">
+          <option value="saude">Saúde e bem-estar</option>
+          <option value="competicao">Competição</option>
+          <option value="diversao">Diversão</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <label for="comentarios">Deixe aqui seus comentários ou sugestões:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Compartilhe sua opinião..."></textarea>
+      </fieldset>
+
+      <button type="submit" class="button">Enviar</button>
+    </form>
+
+    <p id="mensagem" class="success-message">Formulário enviado com sucesso! Redirecionando...</p>
+  </div>
+
+  <script>
+    document.getElementById("formEsporte").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      // Verificação básica de campos
+      const nome = document.getElementById("nome").value.trim();
+      const email = document.getElementById("email").value.trim();
+      if (!nome || !email) {
+        alert("Por favor, preencha seu nome e e-mail.");
+        return;
+      }
+
+      document.getElementById("mensagem").style.display = "block";
+      setTimeout(() => {
+        window.location.href = "file:///C:/Users/ALUNO%2015/Documents/vinicius/agradecimento.html";
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
